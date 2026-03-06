@@ -26,7 +26,7 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 
 android {
-    compileSdk 34
+    compileSdk 35
     namespace project.group
 
     compileOptions {
@@ -43,5 +43,5 @@ android {
 }
 
 dependencies {
-    implementation 'com.github.scottyab:rootbeer:0.1.1'
+    implementation 'com.scottyab:rootbeer-lib:0.1.1'
 }
